@@ -3,29 +3,33 @@
   --bg-primary: #0c0020;
   --bg-secondary: #1c004a;
   --accent: #ff6363;
-  --text: #;
+  --text: #fde3e3;
 }
 
 body {
   box-sizing: border-box;
   margin: 0;
   width: 100vw;
-  background-color: var(--bg-secondary);
+  background-color: var(--bg-primary);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
 }
+/* HEADER */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--bg-primary);
+  background-color: var(--bg-secondary);
+  padding: 20px;
 }
 nav ul {
-  display: flex;
   list-style: none;
+  padding-left: 0;
+  display: none;
 }
 nav li {
-  padding: 20px;
+  padding: 10px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -33,10 +37,29 @@ nav a {
   text-decoration: none;
   color: #ff6363;
 }
+.hamburger-button div {
+  width: 40px;
+  height: 6px;
+  background-color: var(--accent);
+  border-radius: 6px;
+  margin: 5px;
+}
+.hamburger-items {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.hamburger-item {
+  text-transform: uppercase;
+}
 .logo {
   width: 100px;
 }
 .logo img {
   width: 100%;
-  padding-left: 20px;
+  padding-left: 10px;
+}
+/* MAIN */
+main {
+  padding: 30px;
 }
