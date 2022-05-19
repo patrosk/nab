@@ -45,7 +45,7 @@ nav a {
   margin: 5px;
 }
 .hamburger-items {
-  display: flex;
+  display: hidden;
   flex-direction: column;
   align-items: end;
 }
