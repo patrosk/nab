@@ -1,0 +1,13 @@
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 760px) {
+  .dropdown {
+    display: none;
+  }
+  .menu-desktop {
+    display: block;
+  }
+  nav ul {
+    display: flex;
+  }
+}
