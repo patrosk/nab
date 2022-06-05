@@ -12,6 +12,7 @@
   }
   .menu-desktop {
     display: block;
+    padding-right: 20px;
   }
   nav ul {
     display: flex;
@@ -26,5 +27,12 @@
   }
   footer .logo {
     display: block;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .links {
+    width: 150px;
   }
 }

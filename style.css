@@ -220,7 +220,20 @@ h2 a {
   text-align: center;
   padding-top: 10px;
 }
-
+.articles,
+.videos {
+  text-align: left;
+}
+.articles a,
+.videos a {
+  text-decoration: none;
+  color: var(--accent);
+  font-weight: 700;
+}
+.articles li::marker,
+.videos li::marker {
+  color: var(--accent-dark);
+}
 footer {
   width: 100vw;
   padding: 20px 0px;
