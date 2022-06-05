@@ -7,5 +7,3 @@ menuButton.addEventListener('click', () => {
   dropdown.classList.toggle('show');
   hamburgerSpans.classList.toggle('is-active');
 });
-
-Set-Cookie: SameSite=None; Secure;
